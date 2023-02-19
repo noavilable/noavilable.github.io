@@ -11,9 +11,12 @@ baseURL: 'https://example.com/' # Website URL
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
-removePathAccents: true
+# hasCJKLanguage: false
+# defaultContentLanguageInSubdir: false
+# removePathAccents: true
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: true
+removePathAccents: false
 
 ############################
 ## MODULES
